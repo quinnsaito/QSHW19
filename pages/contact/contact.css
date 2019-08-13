@@ -1,0 +1,143 @@
+#contact {
+    background-color: yellow;
+}
+
+.navbar {
+    text-align: left;
+    justify-content: left;
+    background: transparent !important;
+}
+
+.nav-item {
+    padding-right: 10px;
+    font-size: 14px;
+    font-family: avenir, sans-serif;
+    
+}
+
+h1 {
+    font-family: 'Text me One', sans-serif;
+    font-size: 60px;
+}
+.sayHi {
+    position: relative;
+    display: inline-block;
+    float: left;
+    width: 30%;
+    margin-top: 10%;
+    margin-left: 10%;
+    font-family: avenir, sans-serif;
+    text-align: center;
+}
+.formOne {
+    position: relative;
+    display: inline-block;
+    width: 40%;
+    float: right;
+    font-family: avenir, sans-serif;
+    margin-right: 15%;
+    margin-top: 10%;
+
+}
+
+.icons {
+    margin-top: 70px;
+}
+
+.icons a {
+    font-size: 25px;
+    color: rgb(26, 85, 85);
+    
+}
+
+.icons a:hover {
+    color: rgb(26, 85, 85); 
+}
+
+.btnContact {
+    color:rgb(244 218 64);
+    background-color: #ffffff;
+    border-color:rgb(244 218 64);
+    font-family: avenir;
+    padding: 20px;
+    border: 3px solid rgb(244 218 64);
+    margin-top: 20px;
+    
+}
+
+.btnContact:hover {
+    background-color: rgb(244 218 64);
+    border-color:rgb(244 218 64);
+    color: white; 
+}
+    
+@-webkit-keyframes hvr-wobble-horizontal {
+        16.65% {
+          -webkit-transform: translateX(8px);
+          transform: translateX(8px);
+        }
+        33.3% {
+          -webkit-transform: translateX(-6px);
+          transform: translateX(-6px);
+        }
+        49.95% {
+          -webkit-transform: translateX(4px);
+          transform: translateX(4px);
+        }
+        66.6% {
+          -webkit-transform: translateX(-2px);
+          transform: translateX(-2px);
+        }
+        83.25% {
+          -webkit-transform: translateX(1px);
+          transform: translateX(1px);
+        }
+        100% {
+          -webkit-transform: translateX(0);
+          transform: translateX(0);
+        }
+      }
+@keyframes hvr-wobble-horizontal {
+    16.65% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px);
+        }
+    33.3% {
+    -webkit-transform: translateX(-6px);
+        transform: translateX(-6px);
+        }
+    49.95% {
+    -webkit-transform: translateX(4px);
+        transform: translateX(4px);
+        }
+        66.6% {
+          -webkit-transform: translateX(-2px);
+          transform: translateX(-2px);
+        }
+        83.25% {
+          -webkit-transform: translateX(1px);
+          transform: translateX(1px);
+        }
+        100% {
+          -webkit-transform: translateX(0);
+          transform: translateX(0);
+        }
+      }
+.hvr-wobble-horizontal {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    }
+
+.hvr-wobble-horizontal:hover, .hvr-wobble-horizontal:focus, .hvr-wobble-horizontal:active {
+    -webkit-animation-name: hvr-wobble-horizontal;
+    animation-name: hvr-wobble-horizontal;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}   

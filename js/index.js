@@ -1,4 +1,4 @@
-function scrollAppear(){
+function sliceScroll(){
     var sliceBody = document.querySelector('.sliceBody');
     var introPosition = sliceBody.getBoundingClientRect().top;
   
@@ -9,19 +9,19 @@ function scrollAppear(){
     }
 }
 
-    window.addEventListener('scroll',scrollAppear);
+    window.addEventListener('scroll',sliceScroll); 
 
 
-//function scrollAppear(){
-  //   var ockbfBody = document.querySelector('.ockbfBody');
- //    var introPosition = ockbfBody.getBoundingClientRect().top; 
-   //  var screenPosition = window.innerHeight / 1.3 ;
 
-     //if(introPosition < screenPosition){
-      //   ockbfBody.classList.add('appearOc');
-  //   }
-    //}
-
-     //window.addEventListener('scroll',scrollAppear);
-     //fr tho y does this one not work its cool i guess
-
+function ocScroll(){
+    var ockbfBody = document.querySelector('.ockbfBody');
+    var introPosition = ockbfBody.getBoundingClientRect().top; 
+    var screenPosition = window.innerHeight / 1.3 ;
+   
+        if(introPosition < screenPosition){
+         ockbfBody.classList.add('appearOc');
+     }
+   }
+   window.addEventListener('scroll',ocScroll);
+      
+   
